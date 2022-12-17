@@ -1,0 +1,81 @@
+#container {
+    width: 70%;
+    margin: 0 auto;;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%; 
+    margin: auto;
+}
+  
+article ul{
+    font-size: 0; 
+    background-color: #fff; 
+}
+  
+article ul, article ul li{ 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.content-button {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1.6rem;
+}
+  
+header{
+    margin: 1.6rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div{
+    display: inline-block;
+    box-sizing: border-box; 
+    text-align: center; 
+    font-size: 16px; 
+    vertical-align: top; 
+}
+  
+header div label{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: .4rem;
+}
+
+header div input{
+    padding: .6rem 2rem;
+}
+
+#customers td, #customers th, .saldos{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+#customers tr:hover {background-color: #ddd;}
+  
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
